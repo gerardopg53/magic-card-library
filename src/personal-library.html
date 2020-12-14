@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/toggle-hidden.js" defer></script>
+    <script src="js/view-your-cards.js" defer></script>
+    <title>All Spells</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="my-container">
+                <div id="logo">
+                    <h1><a href="index.html">Spell Card Library</a></h1>
+                </div>
+                <ul id="navbar-options">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="personal-library.html">Your Spells</a></li>
+                    <li><a href="library.html">All Spells</a></li>
+                    <!-- <li><a href="view-users.html">All Users</a></li> -->
+                    <li><a href="add-card.html">Add Card</a></li>
+                    <li><a href="login.html">Log In</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="other-page-container">
+        <div id="main-container-border">
+            <section id="card-table-main">
+                <h1>Spell Library</h1>
+                <p style="text-align: center; color: white; padding: 20px;">
+                    Oh yeah! here are your magic spells, you witch!
+                </p>
+                <table id="card-table">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>  Name  </th>
+                            <th>  Spell Type  </th>
+                        </tr>
+                    </thead>
+                    <tbody id="card-table-data"></tbody>
+                </table>
+            </section>
+        </div>
+    </div>
+    <footer id="footer">Spell Card Library &reg; 2020</footer>
+</body>
+</html>

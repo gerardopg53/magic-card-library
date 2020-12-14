@@ -1,0 +1,22 @@
+{
+  "name": "magic-card-library",
+  "version": "1.0.0",
+  "description": "The library to hold all of you magical spell cards!",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gerardopg53/magic-card-library.git"
+  },
+  "author": "Gerardo Perez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gerardopg53/magic-card-library/issues"
+  },
+  "homepage": "https://github.com/gerardopg53/magic-card-library#readme",
+  "devDependencies": {
+    "webpack": "^5.10.1"
+  }
+}

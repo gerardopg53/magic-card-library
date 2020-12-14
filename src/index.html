@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/toggle-hidden.js" defer></script>
+    <script src="js/create-user.js" defer></script>
+    <title> Spell Card Library </title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="my-container">
+                <div id="logo">
+                    <h1><a href="index.html"> Spell Card Library </a></h1>
+                </div>
+                <ul id="navbar-options">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="personal-library.html">Your Spells</a></li>
+                    <li><a href="library.html">All Spells</a></li>
+                    <!-- <li><a href="view-users.html">All Users</a></li> -->
+                    <li><a href="add-card.html">Add Card</a></li>
+                    <li><a href="login.html">Log In</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <div class="main-container">
+        <div id="main-container-border">
+            <h1 id="title">Spell Card Library</h1>
+            <div>
+                <p style="padding-left: 20px; padding-right: 20px; color: white; text-align: center;">
+                    Welcome to Spell Card Library: your one-stop shop to store all the magic spell cards
+                    that you will find during your travels around the multiverse... all without fear of copyright! </br></br>
+                    Start by making an account, then get the magic started! 
+
+                </p>
+            </div>
+        </div>
+
+        <div id="new-user">
+            <div id="new-user-heading">
+                <h3>Join the magic! </br> Create your account:</h3>
+            </div>
+            <div class="new-user-border">
+                <div id="new-user-form">
+                    <form>
+                        <form action="" id="add-user-form-action">
+                            <label for="userName">Username:</label>
+                            <input type="text" id="user-name" placeholder="Create a username"></br>
+                            <label for="email">Email:</label>
+                            <input type="text" id="user-email" placeholder="Enter your email"></br>
+                            <label for="password">Password:</label>
+                            <input type="text" id="user-password" placeholder="Create a password"></br>
+                            <input type="submit" id="submit-new-user" value="Create Account">
+                        </form>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer id="footer">Spell Card Library &reg; 2020</footer>
+</body>
+</html>

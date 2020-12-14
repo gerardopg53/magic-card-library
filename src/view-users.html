@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/view-users.js" defer></script>
+    <script src="js/toggle-hidden.js" defer></script>
+    <title>All Users</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="my-container">
+                <div id="logo">
+                    <h1><a href="index.html">Spell Card Library</a></h1>
+                </div>
+                <ul id="navbar-options">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="personal-library.html">Your Spells</a></li>
+                    <li><a href="library.html">All Spells</a></li>
+                    <!-- <li><a href="view-users.html">All Users</a></li> -->
+                    <li><a href="add-card.html">Add Card</a></li>
+                    <li><a href="login.html">Log In</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="other-page-container">
+        <div id="main-container-border">
+            <section id="user-table-main">
+                <h1>All Users</h1>
+                <p style="text-align: center; color: white; padding: 20px;">
+                    Here's everyone that has enrolled in your copyright-free wizarding academy!
+                </p>
+                <h2 id="login-warning" style="color: tomato; text-align: center; padding: 20px; margin-bottom: 20px;">YOU MUST BE LOGGED IN AS ADMIN TO SEE THIS CONTENT!</h2>
+                <table id="user-table">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>  Username  </th>
+                            <th>  Email  </th>
+                        </tr>
+                    </thead>
+                    <tbody id="user-table-data"></tbody>
+                </table>
+            </section>
+        </div>
+    </div>
+    <footer id="footer">Spell Card Library &reg; 2020</footer>
+</body>
+</html>

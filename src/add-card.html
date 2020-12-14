@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/create-card.js" defer></script>
+    <script src="js/toggle-hidden.js" defer></script>
+    <title>Add New Card</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="my-container">
+                <div id="logo">
+                    <h1><a href="index.html">Spell Card Library</a></h1>
+                </div>
+                <ul id="navbar-options">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="personal-library.html">Your Spells</a></li>
+                    <li><a href="library.html">All Spells</a></li>
+                    <!-- <li><a href="view-users.html">All Users</a></li> -->
+                    <li><a href="add-card.html">Add Card</a></li>
+                    <li><a href="login.html">Log In</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="other-page-container">
+        <div id="main-container-border">
+            <h1 id="title">Add New Card</h1>
+            <div>
+                <p style="padding-left: 20px; padding-right: 20px; color: white; text-align: center;">
+                    This is where you store your amazing, wonderful, powerful spell cards. How valuable!
+                </p>
+            </div>
+            <div class="add-card-border">
+                <div id="add-card-form">
+                    <form>
+                        <form action="" id="add-card-form-action">
+                            <label for="card-name-label">Card Name:</label>
+                            <input type="text" id="add-card-name" placeholder="Enter new card name"></br>
+                            <label for="card-type-label">Card Type:</label>
+                            <input type="text" id="add-card-type" placeholder="Determine its magical effect"></br>
+                            <input type="submit" id="submit-add-card" value="Create New Card">
+                        </form>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer id="footer">Spell Card Library &reg; 2020</footer>
+</body>
+</html>

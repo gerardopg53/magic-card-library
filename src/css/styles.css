@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: Helvetica, sans-serif;
+    background: #212f45;
+    line-height: 1.7em;
+}
+
+.my-container {
+    margin: auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+/*Navigation bar at the top of every page.*/
+#navbar {
+    background: #144552;
+    color: #c0fdff;
+    overflow: auto;
+}
+
+#navbar a {
+    color: #c0fdff;
+    text-decoration: none;
+}
+
+.my-container #logo {
+    padding: 20px;
+}
+
+#navbar ul {
+    float: right;
+    list-style: none;
+}
+
+#navbar ul li {
+    float: left;
+}
+
+#navbar ul li a {
+    display: block;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Container on Home page. */
+.main-container {
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: auto 25%;
+}
+
+#main-container-border {
+    display: grid;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 200px;
+    border: solid #144552;
+    border-radius: 25px;
+    grid-column-end: 2;
+}
+
+/* Container that holds elements on all other pages. */
+.other-page-container {
+    padding-top: 20px;
+    display: grid;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    color: #c0fdff;
+    padding-top: 20px;
+}
+
+/* Form to create an account in index.html. */
+#new-user {
+    padding-top: 10px;
+    grid-column-start: 2;
+    padding-right: 20px;
+}
+
+#new-user-heading {
+    display: flex;
+    justify-content: center;
+    color: #c0fdff;
+    text-align: center;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+#new-user-form {
+    display: flex;
+    justify-content: center;
+    color: #c0fdff;
+}
+
+label, input, select, textarea {
+    display: block;
+    width: 200px;
+    margin-bottom: 5px;
+}
+
+#submit-login {
+    margin-top: 15px;
+}
+
+.new-user-border {
+    display: grid;
+    justify-content: center;
+    padding: 30px;
+    position: relative;
+    border: solid #144552;
+    border-radius: 25px;
+}
+
+/* Table that holds all created cards. */
+#card-table-main {
+    margin: auto;
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+#card-table-main h1 {
+    font-size: 30px;
+    color: #c0fdff;
+    display: flex;
+    justify-content: center;
+}
+
+#card-table {
+    color: #c0fdff;
+    margin: auto;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+#card-table
+
+tr {
+    background-color: #312244;
+}
+td {
+    border: solid #c0fdff;
+    padding: 3px;
+}
+
+/* Table that holds all created cards. */
+#user-table-main {
+    margin: auto;
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+#user-table-main h1 {
+    font-size: 30px;
+    color: #c0fdff;
+    display: flex;
+    justify-content: center;
+}
+
+#user-table {
+    color: #c0fdff;
+    margin: auto;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+#user-table
+
+tr {
+    background-color: #312244;
+}
+td {
+    border: solid #c0fdff;
+    padding: 3px;
+    text-align: center;
+}
+
+/* Form to create a new card. */
+#add-card-border {
+    display: grid;
+    justify-content: center;
+    padding: 30px;
+    position: relative;
+    border: solid #144552;
+    border-radius: 25px;
+}
+
+#add-card-form {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    color: #c0fdff;
+}
+
+#login-border {
+    display: grid;
+    justify-content: center;
+    padding: 30px;
+    position: relative;
+    border: solid #144552;
+    border-radius: 25px;
+}
+
+#login-form {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    color: #c0fdff;
+}
+
+#footer {
+    text-align: center;
+    background: #144552;
+    color: #c0fdff;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 20px;
+}
