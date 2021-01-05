@@ -1,12 +1,11 @@
 # Spell Card Library
 ## by Gerardo Perez
 
-## Link: http://spell-card-library.s3-website.us-east-2.amazonaws.com/
-
-##Project Description
+## Project Description
 
 **Spell Card Library** is the front end to Cory Sebastian's project0, which can be found at https://github.com/corith/project0 
 It provides a UI for a web server that allows you to create and store all the magic spell cards that you have found in your travels.
+Simply create an account and start adding your favorite spells. Your imagination is the limit! 
 
 ## Technologies Used
     - HTML
@@ -19,3 +18,7 @@ It provides a UI for a web server that allows you to create and store all the ma
     - Log In: Logging in as admin allows you to see all the spells other users have made. 
     - Add a Spell Card: Give it a name and a property. Magical! 
     - See your Spell Cards: Look at your fantastic creations. 
+
+## Getting Started
+### Link: http://spell-card-library.s3-website.us-east-2.amazonaws.com/
+    >
