@@ -33,12 +33,12 @@ Simply create an account and start adding your favorite spells. Your imagination
     - Cory's project0 can be found at https://github.com/corith/project0.
 
 ## Usage
-    - Once the web application is running, it can be accessed at *localhost:4200*.
-    - Create an account in the *Home* page. 
-    - Log in to your account in the *Log In* page. 
-    - Add a spell card in the *Add Card* page. 
-    - View your created cards in the *view Cards* page. 
-    - Log out with the *Log Out* button.
+    - Once the web application is running, it can be accessed at localhost:4200.
+    - Create an account in the Home page. 
+    - Log in to your account in the Log In page. 
+    - Add a spell card in the Add Card page. 
+    - View your created cards in the Your Spells page. 
+    - Log out with the Log Out button.
 
 ## License
 This  project is provided as open source via the MIT License. Copyright (c) 2020 Gerardo Perez
