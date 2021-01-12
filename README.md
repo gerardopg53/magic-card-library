@@ -24,10 +24,10 @@ Simply create an account and start adding your favorite spells. Your imagination
 
 ## Getting Started
     - Execute the following commands in your Terminal:
-        - ```git clone https://github.com/gerardopg53/magic-card-library.git```
-        - ```cd magic-card-library```
-        - ```npm install```
-        - ```npm run start```
+        - git clone https://github.com/gerardopg53/magic-card-library.git
+        - cd magic-card-library
+        - npm install
+        - npm run start
     - Ensure that Cory's project0 is running in your local machine (follow his README for instructions).
     - Ensure that Cory's project0 is running locally in your machine (since the EC2 instance it was hosted on has been shut down). 
     - Cory's project0 can be found at https://github.com/corith/project0.
